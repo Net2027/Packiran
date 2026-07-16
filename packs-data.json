@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T20:03:26Z",
+  "updatedAt": "2026-07-16T20:54:09Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -68,12 +68,5 @@
       "description": null
     }
   ],
-  "mods": [
-    {
-      "name": "تستیه",
-      "file": "https://raw.githubusercontent.com/yaniyorganov-sys/Packiran/main/Mod/تستیه/File/Fat%20Cat%20%5B16x%5D(1).mcpack",
-      "description": "1234\ntest",
-      "compatibility": "hg;d"
-    }
-  ]
+  "mods": []
 }
