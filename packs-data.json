@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T16:37:00Z",
+  "updatedAt": "2026-07-16T16:41:34Z",
   "packs": [
     {
       "name": "fat cat ریسورس پک",
@@ -11,7 +11,7 @@
   "mods": [
     {
       "name": "تستیه",
-      "file": null,
+      "file": "https://raw.githubusercontent.com/yaniyorganov-sys/Packiran/main/Mod/تستیه/File/Fat%20Cat%20%5B16x%5D(1).mcpack",
       "description": "test"
     }
   ]
