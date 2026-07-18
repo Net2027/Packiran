@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T16:37:29Z",
+  "updatedAt": "2026-07-18T16:37:41Z",
   "packs": [
     {
       "name": "Batman",
@@ -59,7 +59,7 @@
       "name": "Venom",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Venom/Bedrock/Venom16x.rar",
-      "description": "ساز گار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا"
     }
   ],
   "mods": [],
