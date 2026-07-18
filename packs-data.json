@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-07-18T21:05:49Z",
+  "updatedAt": "2026-07-18T21:09:02Z",
   "packs": [
     {
       "name": "Akatsuki",
       "java": null,
-      "bedrock": null,
+      "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Akatsuki/Bedrock/Akatsuki.rar",
       "description": "سازگار با نسخه 1.21 به بالا"
     },
     {
