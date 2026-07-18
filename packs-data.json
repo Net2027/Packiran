@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T16:35:59Z",
+  "updatedAt": "2026-07-18T16:36:12Z",
   "packs": [
     {
       "name": "Batman",
@@ -17,7 +17,7 @@
       "name": "Jason voorhees",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Jason%20voorhees/Bedrock/jason%20voorhees%20%5BBedrock%5D.rar",
-      "description": "ساز گار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا"
     },
     {
       "name": "Kepler",
