@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>پنل مدیریت - پک ایران</title>
+<script src="https://unpkg.com/@phosphor-icons/web" defer></script>
+<style>
+    @font-face {
+        font-family: 'Vazir';
+        src: url('fonts/Vazir.woff2') format('woff2');
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: 'Vazir';
+        src: url('fonts/Vazir-Medium.woff2') format('woff2');
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: 'Vazir';
+        src: url('fonts/Vazir-Bold.woff2') format('woff2');
+        font-weight: bold;
+    }
+
+    :root {
+        --bg-dark: #0f172a;
+        --bg-darker: #020617;
+        --text-main: #f8fafc;
+        --text-muted: #94a3b8;
+        --primary-cyan: #06b6d4;
+        --primary-blue: #3b82f6;
+        --primary-gradient: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+        --glass-bg: rgba(15, 23, 42, 0.75);
+        --glass-border: rgba(255, 255, 255, 0.08);
+        --danger: #f43f5e;
+        --font-family: 'Vazir', sans-serif;
+        --transition: all 0.3s ease;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+        font-family: var(--font-family);
+        background: var(--bg-darker);
+        background-image: radial-gradient(circle at 20% 20%, rgba(6,182,212,0.08), transparent 40%),
+                           radial-gradient(circle at 80% 80%, rgba(59,130,246,0.08), transparent 40%);
+        color: var(--text-main);
+        min-height: 100vh;
+    }
+
+    /* ===== صفحه ورود ===== */
+    #login-screen {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .login-box {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 18px;
+        padding: 40px 30px;
+        width: 100%;
+        max-width: 380px;
+        text-align: center;
+        backdrop-filter: blur(15px);
+    }
+
+    .login-box i {
+        font-size: 3rem;
+        color: var(--primary-cyan);
+        margin-bottom: 15px;
+    }
+
+    .login-box h1 {
+        font-size: 1.4rem;
+        margin-bottom: 25px;
+    }
+
+    input, textarea {
+        width: 100%;
+        background: rgba(255,255,255,0.05);
+        border: 1px solid var(--glass-border);
+        border-radius: 10px;
+        padding: 12px 14px;
+        color: var(--text-main);
+        font-family: var(--font-family);
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+        outline: none;
+        transition: var(--transition);
+    }
+    input:focus, textarea:focus { border-color: var(--primary-cyan); }
+    textarea { resize: vertical; min-height: 70px; }
+
+    button {
+        font-family: var(--font-family);
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        transition: var(--transition);
+    }
+
+    .btn-primary {
+        width: 100%;
+        background: var(--primary-gradient);
+        color: #fff;
+        font-weight: 700;
+        padding: 12px;
+        font-size: 1rem;
+    }
+    .btn-primary:hover { filter: brightness(1.1); transform: translateY(-2px); }
+
+    .error-text {
+        color: var(--danger);
+        font-size: 0.85rem;
+        margin-top: 10px;
+        min-height: 18px;
+    }
+
+    /* ===== داشبورد ===== */
+    #dashboard { display: none; }
+
+    header.admin-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 18px 25px;
+        background: var(--glass-bg);
+        border-bottom: 1px solid var(--glass-border);
+        backdrop-filter: blur(10px);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    header.admin-header h1 {
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    header.admin-header h1 i { color: var(--primary-cyan); }
+
+    .btn-logout {
+        background: transparent;
+        border: 1px solid var(--glass-border);
+        color: var(--text-muted);
+        padding: 8px 18px;
+        font-size: 0.85rem;
+    }
+    .btn-logout:hover { border-color: var(--danger); color: var(--danger); }
+
+    .tabs {
+        display: flex;
+        gap: 8px;
+        padding: 15px 25px 0;
+        flex-wrap: wrap;
+    }
+
+    .tab-btn {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        color: var(--text-muted);
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        border-radius: 10px 10px 0 0;
+    }
+    .tab-btn.active {
+        color: var(--primary-cyan);
+        border-color: var(--primary-cyan);
+        background: rgba(6,182,212,0.1);
+    }
+
+    main {
+        padding: 20px 25px 60px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .category-panel { display: none; }
+    .category-panel.active { display: block; }
+
+    .panel-toolbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .btn-add {
+        background: var(--primary-gradient);
+        color: #fff;
+        font-weight: 700;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .btn-add:hover { filter: brightness(1.1); }
+
+    .refresh-note {
+        color: var(--text-muted);
+        font-size: 0.8rem;
+    }
+
+    /* فرم افزودن/ویرایش */
+    .item-form {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 14px;
+        padding: 20px;
+        margin-bottom: 25px;
+        display: none;
+    }
+    .item-form.open { display: block; }
+
+    .item-form label {
+        display: block;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        margin-bottom: 6px;
+        margin-top: 12px;
+    }
+    .item-form label:first-of-type { margin-top: 0; }
+
+    .form-row {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .form-row > div { flex: 1; min-width: 200px; }
+
+    .form-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 18px;
+    }
+
+    .btn-submit {
+        background: var(--primary-gradient);
+        color: #fff;
+        font-weight: 700;
+        padding: 10px 24px;
+        font-size: 0.9rem;
+    }
+    .btn-cancel {
+        background: transparent;
+        border: 1px solid var(--glass-border);
+        color: var(--text-muted);
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .checkbox-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 8px;
+        font-size: 0.85rem;
+        color: var(--text-muted);
+    }
+    .checkbox-row input { width: auto; margin: 0; }
+
+    .form-msg {
+        margin-top: 12px;
+        font-size: 0.85rem;
+        min-height: 18px;
+    }
+    .form-msg.error { color: var(--danger); }
+    .form-msg.success { color: #22c55e; }
+
+    /* لیست کارت‌ها */
+    .item-list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .item-card {
+        background: var(--glass-bg);
+        border: 1px solid var(--glass-border);
+        border-radius: 12px;
+        padding: 15px 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .item-info { flex: 1; min-width: 180px; }
+    .item-info .item-name { font-weight: 700; font-size: 1rem; }
+    .item-info .item-desc {
+        color: var(--text-muted);
+        font-size: 0.82rem;
+        margin-top: 4px;
+        max-width: 500px;
+    }
+    .item-badges {
+        display: flex;
+        gap: 6px;
+        margin-top: 6px;
+        flex-wrap: wrap;
+    }
+    .item-badge {
+        font-size: 0.72rem;
+        padding: 3px 10px;
+        border-radius: 20px;
+        border: 1px solid rgba(6,182,212,0.35);
+        color: var(--primary-cyan);
+        background: rgba(6,182,212,0.1);
+    }
+    .item-badge.missing {
+        border-color: rgba(148,163,184,0.3);
+        color: var(--text-muted);
+        background: transparent;
+    }
+
+    .item-actions { display: flex; gap: 8px; }
+    .btn-icon {
+        background: transparent;
+        border: 1px solid var(--glass-border);
+        color: var(--text-muted);
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+    }
+    .btn-icon:hover { border-color: var(--primary-cyan); color: var(--primary-cyan); }
+    .btn-icon.danger:hover { border-color: var(--danger); color: var(--danger); }
+
+    .empty-state {
+        text-align: center;
+        color: var(--text-muted);
+        padding: 40px 0;
+        font-size: 0.9rem;
+    }
+
+    .loading-state {
+        text-align: center;
+        color: var(--text-muted);
+        padding: 30px 0;
+    }
+
+    @media (max-width: 600px) {
+        header.admin-header { padding: 15px; }
+        main { padding: 15px; }
+        .tabs { padding: 12px 15px 0; }
+    }
+</style>
+</head>
+<body>
+
+<!-- ===== صفحه ورود ادمین ===== -->
+<div id="login-screen">
+    <div class="login-box">
+        <i class="ph-fill ph-shield-check"></i>
+        <h1>ورود به پنل مدیریت</h1>
+        <form id="login-form">
+            <input type="text" id="login-username" placeholder="نام کاربری" autocomplete="username" required>
+            <input type="password" id="login-password" placeholder="رمز عبور" autocomplete="current-password" required>
+            <button type="submit" class="btn-primary">ورود</button>
+            <div class="error-text" id="login-error"></div>
+        </form>
+    </div>
+</div>
+
+<!-- ===== داشبورد ===== -->
+<div id="dashboard">
+    <header class="admin-header">
+        <h1><i class="ph-fill ph-shield-check"></i> پنل مدیریت پک ایران</h1>
+        <button class="btn-logout" id="logout-btn"><i class="ph-bold ph-sign-out"></i> خروج</button>
+    </header>
+
+    <div class="tabs" id="tabs"></div>
+
+    <main id="panels"></main>
+</div>
+
+<script>
+const API_BASE = 'https://web-production-b6b4a.up.railway.app';
+
+const CATEGORIES = {
+    packs: { label: 'ریسورس پک‌ها', icon: 'ph-package', type: 'dual', compatibility: false },
+    mods: { label: 'مود ها', icon: 'ph-puzzle-piece', type: 'single', compatibility: true },
+    shaders: { label: 'شیدر ها', icon: 'ph-sparkle', type: 'single', compatibility: true },
+    films: { label: 'فیلم ها', icon: 'ph-video-camera', type: 'link', compatibility: false },
+};
+
+let adminToken = sessionStorage.getItem('adminToken') || null;
+let activeCategory = 'packs';
+
+// ===== ابزار کمکی =====
+function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str || '';
+    return div.innerHTML;
+}
+
+async function apiRequest(path, options = {}) {
+    const headers = options.headers || {};
+    if (adminToken) headers['Authorization'] = `Bearer ${adminToken}`;
+    const res = await fetch(`${API_BASE}${path}`, { ...options, headers });
+    let data = null;
+    try { data = await res.json(); } catch (e) { /* بدنه‌ی خالی */ }
+    if (!res.ok) {
+        throw new Error((data && data.error) || `خطای ${res.status}`);
+    }
+    return data;
+}
+
+// ===== ورود / خروج =====
+document.getElementById('login-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const username = document.getElementById('login-username').value.trim();
+    const password = document.getElementById('login-password').value;
+    const errorEl = document.getElementById('login-error');
+    errorEl.textContent = '';
+
+    try {
+        const data = await apiRequest('/api/admin/login', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ username, password }),
+        });
+        adminToken = data.token;
+        sessionStorage.setItem('adminToken', adminToken);
+        showDashboard();
+    } catch (err) {
+        errorEl.textContent = err.message || 'خطا در ورود';
+    }
+});
+
+document.getElementById('logout-btn').addEventListener('click', () => {
+    adminToken = null;
+    sessionStorage.removeItem('adminToken');
+    document.getElementById('dashboard').style.display = 'none';
+    document.getElementById('login-screen').style.display = 'flex';
+});
+
+function showDashboard() {
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('dashboard').style.display = 'block';
+    buildTabsAndPanels();
+    loadCategory(activeCategory);
+}
+
+// ===== ساخت تب‌ها و پنل‌ها =====
+function buildTabsAndPanels() {
+    const tabsEl = document.getElementById('tabs');
+    const panelsEl = document.getElementById('panels');
+    tabsEl.innerHTML = '';
+    panelsEl.innerHTML = '';
+
+    Object.keys(CATEGORIES).forEach((key) => {
+        const cfg = CATEGORIES[key];
+
+        const tabBtn = document.createElement('button');
+        tabBtn.className = 'tab-btn' + (key === activeCategory ? ' active' : '');
+        tabBtn.innerHTML = `<i class="ph-fill ${cfg.icon}"></i> ${cfg.label}`;
+        tabBtn.addEventListener('click', () => switchCategory(key));
+        tabsEl.appendChild(tabBtn);
+
+        const panel = document.createElement('div');
+        panel.className = 'category-panel' + (key === activeCategory ? ' active' : '');
+        panel.id = `panel-${key}`;
+        panel.innerHTML = `
+            <div class="panel-toolbar">
+                <button class="btn-add" data-add="${key}"><i class="ph-bold ph-plus"></i> افزودن ${cfg.label}</button>
+                <span class="refresh-note">تغییرات معمولاً بلافاصله روی سایت هم اعمال می‌شه</span>
+            </div>
+            <div class="item-form" id="form-${key}"></div>
+            <div class="item-list" id="list-${key}">
+                <div class="loading-state">در حال بارگذاری...</div>
+            </div>
+        `;
+        panelsEl.appendChild(panel);
+
+        panel.querySelector(`[data-add="${key}"]`).addEventListener('click', () => openForm(key, null));
+    });
+}
+
+function switchCategory(key) {
+    activeCategory = key;
+    document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', Object.keys(CATEGORIES)[i] === key);
+    });
+    document.querySelectorAll('.category-panel').forEach((panel) => {
+        panel.classList.toggle('active', panel.id === `panel-${key}`);
+    });
+    loadCategory(key);
+}
+
+// ===== بارگذاری لیست هر دسته =====
+async function loadCategory(key) {
+    const listEl = document.getElementById(`list-${key}`);
+    listEl.innerHTML = '<div class="loading-state">در حال بارگذاری...</div>';
+    try {
+        const items = await apiRequest(`/api/admin/${key}`);
+        renderList(key, items);
+    } catch (err) {
+        listEl.innerHTML = `<div class="empty-state">خطا در بارگذاری: ${escapeHtml(err.message)}</div>`;
+    }
+}
+
+function renderList(key, items) {
+    const cfg = CATEGORIES[key];
+    const listEl = document.getElementById(`list-${key}`);
+
+    if (!items || items.length === 0) {
+        listEl.innerHTML = '<div class="empty-state">هنوز چیزی اضافه نشده</div>';
+        return;
+    }
+
+    listEl.innerHTML = items.map((item) => {
+        let badges = '';
+        if (cfg.type === 'dual') {
+            badges = `
+                <span class="item-badge ${item.java ? '' : 'missing'}">${item.java ? 'جاوا ✓' : 'جاوا ندارد'}</span>
+                <span class="item-badge ${item.bedrock ? '' : 'missing'}">${item.bedrock ? 'بدراک ✓' : 'بدراک ندارد'}</span>
+            `;
+        } else if (cfg.type === 'single') {
+            badges = `<span class="item-badge ${item.file ? '' : 'missing'}">${item.file ? 'فایل ✓' : 'فایل ندارد'}</span>`;
+            if (cfg.compatibility) {
+                badges += item.compatibility ? `<span class="item-badge">${escapeHtml(item.compatibility)}</span>` : '';
+            }
+        } else if (cfg.type === 'link') {
+            badges = `<span class="item-badge ${item.link ? '' : 'missing'}">${item.link ? 'لینک ✓' : 'لینک ندارد'}</span>`;
+        }
+
+        return `
+            <div class="item-card">
+                <div class="item-info">
+                    <div class="item-name">${escapeHtml(item.name)}</div>
+                    ${item.description ? `<div class="item-desc">${escapeHtml(item.description)}</div>` : ''}
+                    <div class="item-badges">${badges}</div>
+                </div>
+                <div class="item-actions">
+                    <button class="btn-icon" data-edit="${escapeHtml(item.name)}" title="ویرایش"><i class="ph-bold ph-pencil-simple"></i></button>
+                    <button class="btn-icon danger" data-delete="${escapeHtml(item.name)}" title="حذف"><i class="ph-bold ph-trash"></i></button>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    listEl.querySelectorAll('[data-edit]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+            const name = btn.getAttribute('data-edit');
+            const item = items.find((i) => i.name === name);
+            openForm(key, item);
+        });
+    });
+
+    listEl.querySelectorAll('[data-delete]').forEach((btn) => {
+        btn.addEventListener('click', () => handleDelete(key, btn.getAttribute('data-delete')));
+    });
+}
+
+// ===== فرم افزودن/ویرایش =====
+function openForm(key, item) {
+    const cfg = CATEGORIES[key];
+    const formEl = document.getElementById(`form-${key}`);
+    const isEdit = !!item;
+
+    let fieldsHtml = '';
+
+    fieldsHtml += `
+        <label>اسم</label>
+        <input type="text" id="field-name-${key}" value="${isEdit ? escapeHtml(item.name) : ''}" ${isEdit ? 'disabled' : ''} placeholder="اسم دقیق مثل نام پوشه">
+    `;
+
+    fieldsHtml += `
+        <label>توضیحات (اختیاری)</label>
+        <textarea id="field-description-${key}" placeholder="توضیح کوتاه، خالی بذار یعنی توضیحی نباشه">${isEdit ? escapeHtml(item.description || '') : ''}</textarea>
+    `;
+
+    if (cfg.compatibility) {
+        fieldsHtml += `
+            <label>سازگاری (اختیاری، مثلاً «سازگار با جاوا»)</label>
+            <input type="text" id="field-compatibility-${key}" value="${isEdit ? escapeHtml(item.compatibility || '') : ''}" placeholder="خالی بذار یعنی نشونی نمایش داده نشه">
+        `;
+    }
+
+    if (cfg.type === 'dual') {
+        fieldsHtml += `
+            <div class="form-row">
+                <div>
+                    <label>فایل جاوا (اختیاری، zip/rar/7z/mcpack/...)</label>
+                    <input type="file" id="field-java-${key}">
+                    ${isEdit && item.java ? `<div class="checkbox-row"><input type="checkbox" id="field-remove-java-${key}"><label for="field-remove-java-${key}" style="margin:0">حذف فایل جاوای فعلی</label></div>` : ''}
+                </div>
+                <div>
+                    <label>فایل بدراک (اختیاری)</label>
+                    <input type="file" id="field-bedrock-${key}">
+                    ${isEdit && item.bedrock ? `<div class="checkbox-row"><input type="checkbox" id="field-remove-bedrock-${key}"><label for="field-remove-bedrock-${key}" style="margin:0">حذف فایل بدراک فعلی</label></div>` : ''}
+                </div>
+            </div>
+        `;
+    } else if (cfg.type === 'single') {
+        fieldsHtml += `
+            <label>فایل (اختیاری، هر فرمتی)</label>
+            <input type="file" id="field-file-${key}">
+            ${isEdit && item.file ? `<div class="checkbox-row"><input type="checkbox" id="field-remove-file-${key}"><label for="field-remove-file-${key}" style="margin:0">حذف فایل فعلی</label></div>` : ''}
+        `;
+    } else if (cfg.type === 'link') {
+        fieldsHtml += `
+            <label>لینک فیلم (اختیاری، خالی بذار یعنی «به زودی»)</label>
+            <input type="text" id="field-link-${key}" value="${isEdit ? escapeHtml(item.link || '') : ''}" placeholder="https://...">
+        `;
+    }
+
+    fieldsHtml += `
+        <div class="form-actions">
+            <button type="submit" class="btn-submit">${isEdit ? 'ذخیره تغییرات' : 'ساخت'}</button>
+            <button type="button" class="btn-cancel" id="cancel-${key}">انصراف</button>
+        </div>
+        <div class="form-msg" id="msg-${key}"></div>
+    `;
+
+    formEl.innerHTML = `<form id="submit-form-${key}">${fieldsHtml}</form>`;
+    formEl.classList.add('open');
+    formEl.dataset.editingName = isEdit ? item.name : '';
+
+    document.getElementById(`cancel-${key}`).addEventListener('click', () => {
+        formEl.classList.remove('open');
+        formEl.innerHTML = '';
+    });
+
+    document.getElementById(`submit-form-${key}`).addEventListener('submit', (e) => {
+        e.preventDefault();
+        submitForm(key, isEdit ? item.name : null);
+    });
+
+    formEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+async function submitForm(key, editingName) {
+    const cfg = CATEGORIES[key];
+    const msgEl = document.getElementById(`msg-${key}`);
+    msgEl.textContent = '';
+    msgEl.className = 'form-msg';
+
+    const formData = new FormData();
+
+    if (!editingName) {
+        const name = document.getElementById(`field-name-${key}`).value.trim();
+        if (!name) {
+            msgEl.textContent = 'اسم رو وارد کن';
+            msgEl.className = 'form-msg error';
+            return;
+        }
+        formData.append('name', name);
+    }
+
+    formData.append('description', document.getElementById(`field-description-${key}`).value.trim());
+
+    if (cfg.compatibility) {
+        formData.append('compatibility', document.getElementById(`field-compatibility-${key}`).value.trim());
+    }
+
+    if (cfg.type === 'dual') {
+        const javaFile = document.getElementById(`field-java-${key}`).files[0];
+        const bedrockFile = document.getElementById(`field-bedrock-${key}`).files[0];
+        if (javaFile) formData.append('java', javaFile);
+        if (bedrockFile) formData.append('bedrock', bedrockFile);
+        const removeJava = document.getElementById(`field-remove-java-${key}`);
+        const removeBedrock = document.getElementById(`field-remove-bedrock-${key}`);
+        if (removeJava && removeJava.checked) formData.append('remove_java', 'true');
+        if (removeBedrock && removeBedrock.checked) formData.append('remove_bedrock', 'true');
+    } else if (cfg.type === 'single') {
+        const file = document.getElementById(`field-file-${key}`).files[0];
+        if (file) formData.append('file', file);
+        const removeFile = document.getElementById(`field-remove-file-${key}`);
+        if (removeFile && removeFile.checked) formData.append('remove_file', 'true');
+    } else if (cfg.type === 'link') {
+        formData.append('link', document.getElementById(`field-link-${key}`).value.trim());
+    }
+
+    const submitBtn = document.querySelector(`#submit-form-${key} .btn-submit`);
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'در حال ارسال...';
+
+    try {
+        const url = editingName
+            ? `/api/admin/${key}/${encodeURIComponent(editingName)}`
+            : `/api/admin/${key}`;
+        await apiRequest(url, {
+            method: editingName ? 'PUT' : 'POST',
+            body: formData,
+        });
+
+        msgEl.textContent = 'با موفقیت ذخیره شد ✅';
+        msgEl.className = 'form-msg success';
+
+        setTimeout(() => {
+            document.getElementById(`form-${key}`).classList.remove('open');
+            document.getElementById(`form-${key}`).innerHTML = '';
+            loadCategory(key);
+        }, 800);
+    } catch (err) {
+        msgEl.textContent = err.message || 'خطا در ذخیره';
+        msgEl.className = 'form-msg error';
+    } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = editingName ? 'ذخیره تغییرات' : 'ساخت';
+    }
+}
+
+async function handleDelete(key, name) {
+    if (!confirm(`مطمئنی می‌خوای «${name}» رو کامل حذف کنی؟ این کار قابل بازگشت نیست.`)) return;
+    try {
+        await apiRequest(`/api/admin/${key}/${encodeURIComponent(name)}`, { method: 'DELETE' });
+        loadCategory(key);
+    } catch (err) {
+        alert('خطا در حذف: ' + err.message);
+    }
+}
+
+// ===== شروع =====
+if (adminToken) {
+    showDashboard();
+}
+</script>
+</body>
+</html>
