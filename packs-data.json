@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T16:39:12Z",
+  "updatedAt": "2026-07-18T16:39:50Z",
   "packs": [
     {
       "name": "Batman",
@@ -65,7 +65,7 @@
   "mods": [
     {
       "name": "Sky Block",
-      "file": null,
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Sky%20Block/File/Lucky%20BlockSkyblock.zip",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار با بدراک"
     }
