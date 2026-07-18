@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T16:37:41Z",
+  "updatedAt": "2026-07-18T16:39:12Z",
   "packs": [
     {
       "name": "Batman",
@@ -62,7 +62,14 @@
       "description": "سازگار با نسخه 1.21 به بالا"
     }
   ],
-  "mods": [],
+  "mods": [
+    {
+      "name": "Sky Block",
+      "file": null,
+      "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار با بدراک"
+    }
+  ],
   "shaders": [],
   "films": []
 }
