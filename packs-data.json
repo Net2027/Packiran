@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-18T19:20:33Z",
+  "updatedAt": "2026-07-18T19:20:56Z",
   "packs": [
     {
       "name": "Akatsuki",
       "java": null,
       "bedrock": null,
-      "description": null
+      "description": "سازگار با نسخه 1.21 به بالا"
     },
     {
       "name": "Batman",
