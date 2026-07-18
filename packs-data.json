@@ -1,6 +1,12 @@
 {
-  "updatedAt": "2026-07-18T18:55:11Z",
+  "updatedAt": "2026-07-18T19:18:31Z",
   "packs": [
+    {
+      "name": "Akatsuki",
+      "java": null,
+      "bedrock": null,
+      "description": null
+    },
     {
       "name": "Batman",
       "java": null,
