@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T16:05:35Z",
+  "updatedAt": "2026-07-19T16:11:48Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -91,6 +91,12 @@
       "name": "تبدیل شدن به ماب ها",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل شدن به ماب ها/File/تبدیل شدن به ماب ها",
       "description": "بدراک 1.26 به بالا",
+      "compatibility": "سازگار بدراک"
+    },
+    {
+      "name": "مود ساخت شهر",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/File/City%20Expansion%20Add-On%20(addon).mcaddon",
+      "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک"
     }
   ],
