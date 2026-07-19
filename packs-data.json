@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:46:35Z",
+  "updatedAt": "2026-07-19T17:46:53Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -69,12 +69,6 @@
     }
   ],
   "mods": [
-    {
-      "name": "Sky Block",
-      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Sky%20Block/File/Lucky%20BlockSkyblock.zip",
-      "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار با بدراک"
-    },
     {
       "name": "مود ساخت شهر",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/File/City%20Expansion%20Add-On%20(addon).mcaddon",
