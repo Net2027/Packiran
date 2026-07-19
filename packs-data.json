@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:28:02Z",
+  "updatedAt": "2026-07-19T17:28:09Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -97,11 +97,5 @@
     }
   ],
   "films": [],
-  "downloads": [
-    {
-      "name": "ت",
-      "file": null,
-      "description": null
-    }
-  ]
+  "downloads": []
 }
