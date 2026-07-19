@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T09:41:55Z",
+  "updatedAt": "2026-07-19T09:51:31Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -94,6 +94,13 @@
       "compatibility": "سازگار بدراک"
     }
   ],
-  "shaders": [],
+  "shaders": [
+    {
+      "name": "اکشن اند استاف 1.11(جدید ترین نسخه )",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Shader/اکشن اند استاف 1.11(جدید ترین نسخه )/File/Actions%20Stuff%201.11",
+      "description": "نسخه 1.26.30 به بالا",
+      "compatibility": "سازگار با بدراک"
+    }
+  ],
   "films": []
 }
