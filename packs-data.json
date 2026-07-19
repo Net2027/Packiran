@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T09:34:13Z",
+  "updatedAt": "2026-07-19T09:41:55Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -90,7 +90,7 @@
     {
       "name": "تبدیل شدن به ماب ها",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل شدن به ماب ها/File/تبدیل شدن به ماب ها",
-      "description": "بدراک 1.21 به بالا",
+      "description": "بدراک 1.26 به بالا",
       "compatibility": "سازگار بدراک"
     }
   ],
