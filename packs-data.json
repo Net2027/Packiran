@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T17:36:50Z",
+  "updatedAt": "2026-07-19T17:46:35Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -74,12 +74,6 @@
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Sky%20Block/File/Lucky%20BlockSkyblock.zip",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار با بدراک"
-    },
-    {
-      "name": "تبدیل شدن به ماب ها",
-      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل شدن به ماب ها/File/تبدیل شدن به ماب ها",
-      "description": "بدراک 1.26 به بالا",
-      "compatibility": "سازگار بدراک"
     },
     {
       "name": "مود ساخت شهر",
