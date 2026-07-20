@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T06:00:47Z",
+  "updatedAt": "2026-07-20T06:04:24Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -91,6 +91,12 @@
       "name": "مود ساخت شهر",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/File/City%20Expansion%20Add-On%20(addon).mcaddon",
       "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار بدراک"
+    },
+    {
+      "name": "مپ وان بلاک",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مپ وان بلاک/File/One%20Block.mcworld",
+      "description": "بدراک 1.20به بالا",
       "compatibility": "سازگار بدراک"
     },
     {
