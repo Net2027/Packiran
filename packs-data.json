@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T05:57:34Z",
+  "updatedAt": "2026-07-20T06:00:47Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -72,6 +72,12 @@
     {
       "name": "Lucky-SkyBlock",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Lucky-SkyBlock/File/Lucky%20BlockSkyblock%20(1).mctemplate",
+      "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار بدراک"
+    },
+    {
+      "name": "انواع ماب های ترسناک جهش یافته برای",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع ماب های ترسناک جهش یافته برای/File/Mutant%20Mobs%20Add-On.mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک"
     },
