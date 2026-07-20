@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T10:48:06Z",
+  "updatedAt": "2026-07-20T11:52:24Z",
   "packs": [
     {
       "name": "4sangre",
@@ -120,7 +120,7 @@
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل روستا به شهر/File/Village%20Cities%20Add-On%20(addon).mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": null
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل روستا به شهر/IMG_20260720_152029_158.jpg"
     },
     {
       "name": "مود انواع آیرون گولم",
