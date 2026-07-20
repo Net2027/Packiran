@@ -1,77 +1,89 @@
 {
-  "updatedAt": "2026-07-20T07:32:30Z",
+  "updatedAt": "2026-07-20T08:27:58Z",
   "packs": [
     {
       "name": "4sangre",
       "java": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/4sangre/Java/!        §4sangRe §8.zip",
       "bedrock": null,
-      "description": null
+      "description": null,
+      "icon": null
     },
     {
       "name": "Akatsuki",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Akatsuki/Bedrock/Akatsuki.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Batman",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Batman/Bedrock/batman_32x.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Fat cat",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Fat%20cat/Bedrock/Fat%20Cat%20%5B16x%5D(1).rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Jason voorhees",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Jason%20voorhees/Bedrock/jason%20voorhees%20%5BBedrock%5D.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Kepler",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Kepler/Bedrock/Kepler%20%5BBedrock%5D.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Rigel",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Rigel/Bedrock/Rigel%20%5BBedrock%5D.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Sunflower",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Sunflower/Bedrock/Sunflower.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Tangerine",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Tangerine/Bedrock/Tangerine%20-%20SamStrix%205K%20Texture%20Pack%20%5BBedrock%5D.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Tlaloc",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Tlaloc/Bedrock/Tlaloc%20%5BBedrock%5D.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Todoroki",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Todoroki/Bedrock/Todoroki.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     },
     {
       "name": "Venom",
       "java": null,
       "bedrock": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/Venom/Bedrock/Venom16x.rar",
-      "description": "سازگار با نسخه 1.21 به بالا"
+      "description": "سازگار با نسخه 1.21 به بالا",
+      "icon": null
     }
   ],
   "mods": [
@@ -79,61 +91,71 @@
       "name": "Lucky-SkyBlock",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Lucky-SkyBlock/File/Lucky%20BlockSkyblock%20(1).mctemplate",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "انواع اژدها",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع اژدها/File/Myth%20and%20Dragons%20Add-On%202.0%20(Add-on).mcaddon",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "انواع ماب های ترسناک جهش یافته برای",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع ماب های ترسناک جهش یافته برای/File/Mutant%20Mobs%20Add-On.mcaddon",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )/File/Actions%20Stuff%201.11%20.mcpack",
       "description": "بدراک 1.26.30 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "تبدیل روستا به شهر",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل روستا به شهر/File/Village%20Cities%20Add-On%20(addon).mcaddon",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "مود انواع آیرون گولم",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود انواع آیرون گولم/File/Golem%20Mania%20Add-On.mcaddon",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "مود انواع سوپر مارکت برای ماینکرافت",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود انواع سوپر مارکت برای ماینکرافت/File/Market%20Build%20Set%20(Add-on).mcaddon",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "مود ساخت شهر",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/File/City%20Expansion%20Add-On%20(addon).mcaddon",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "مپ وان بلاک",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مپ وان بلاک/File/One%20Block.mcworld",
       "description": "بدراک 1.20به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     },
     {
       "name": "وان بلاک هاردکور",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وان بلاک هاردکور/File/Hardcore-One-Block-Map-26x.mcworld",
       "description": "بدراک 1.20 به بالا",
-      "compatibility": "سازگار بدراک"
+      "compatibility": "سازگار بدراک",
+      "icon": null
     }
   ],
   "shaders": [
@@ -141,7 +163,8 @@
       "name": "اکشن اند استاف 1.11(جدید ترین نسخه )",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Shader/اکشن اند استاف 1.11(جدید ترین نسخه )/File/Actions%20Stuff%201.11",
       "description": "نسخه 1.26.30 به بالا",
-      "compatibility": "سازگار با بدراک"
+      "compatibility": "سازگار با بدراک",
+      "icon": null
     }
   ],
   "films": [],
