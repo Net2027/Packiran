@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T12:09:10Z",
+  "updatedAt": "2026-07-20T12:10:30Z",
   "packs": [
     {
       "name": "4sangre",
@@ -141,7 +141,7 @@
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/File/City%20Expansion%20Add-On%20(addon).mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": null
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/IMG_20260720_153958_484.jpg"
     },
     {
       "name": "مپ وان بلاک",
