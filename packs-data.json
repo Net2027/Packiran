@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T06:04:24Z",
+  "updatedAt": "2026-07-20T06:07:26Z",
   "packs": [
     {
       "name": "Akatsuki",
@@ -85,6 +85,12 @@
       "name": "اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )/File/Actions%20Stuff%201.11%20.mcpack",
       "description": "بدراک 1.26.30 به بالا",
+      "compatibility": "سازگار بدراک"
+    },
+    {
+      "name": "تبدیل روستا به شهر",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل روستا به شهر/File/Village%20Cities%20Add-On%20(addon).mcaddon",
+      "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک"
     },
     {
