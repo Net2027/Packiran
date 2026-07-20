@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T11:57:37Z",
+  "updatedAt": "2026-07-20T12:06:21Z",
   "packs": [
     {
       "name": "4sangre",
@@ -106,7 +106,7 @@
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع ماب های ترسناک جهش یافته برای/File/Mutant%20Mobs%20Add-On.mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": null
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع ماب های ترسناک جهش یافته برای/IMG_20260720_153555_209.jpg"
     },
     {
       "name": "اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )",
