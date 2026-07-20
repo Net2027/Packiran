@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T11:54:36Z",
+  "updatedAt": "2026-07-20T11:57:37Z",
   "packs": [
     {
       "name": "4sangre",
@@ -127,7 +127,7 @@
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود انواع آیرون گولم/File/Golem%20Mania%20Add-On.mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": null
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود انواع آیرون گولم/9f19bb8e-083a-43d1-974f-cf4377ec68ec.png"
     },
     {
       "name": "مود انواع سوپر مارکت برای ماینکرافت",
