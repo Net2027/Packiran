@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T11:53:06Z",
+  "updatedAt": "2026-07-20T11:53:47Z",
   "packs": [
     {
       "name": "4sangre",
@@ -148,7 +148,7 @@
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مپ وان بلاک/File/One%20Block.mcworld",
       "description": "بدراک 1.20به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": null
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مپ وان بلاک/IMG_20260720_152011_850.jpg"
     },
     {
       "name": "وان بلاک هاردکور",
