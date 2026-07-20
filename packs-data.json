@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T13:08:23Z",
+  "updatedAt": "2026-07-20T13:14:32Z",
   "packs": [
     {
       "name": "4sangre",
@@ -142,6 +142,13 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ساخت شهر/IMG_20260720_153958_484.jpg"
+    },
+    {
+      "name": "مود سروایوال  دلقک های ترسناک",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود سروایوال  دلقک های ترسناک/File/Horror%20Circus%20Add-on.mcaddon",
+      "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود سروایوال  دلقک های ترسناک/photo_2026-07-07_18-24-49.jpg"
     },
     {
       "name": "مود سونیک",
