@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T15:41:20Z",
+  "updatedAt": "2026-07-20T15:54:15Z",
   "packs": [
     {
       "name": "4sangre",
@@ -163,6 +163,13 @@
       "description": "براک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود سونیک/photo_2025-01-07_22-31-18.jpg"
+    },
+    {
+      "name": "مود شهر بازی",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود شهر بازی/File/Amusement%20Park%20(world_template).mctemplate",
+      "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود شهر بازی/photo_2026-07-15_22-56-13.jpg"
     },
     {
       "name": "مپ وان بلاک",
