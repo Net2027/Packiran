@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-07-20T09:53:35Z",
+  "updatedAt": "2026-07-20T10:06:02Z",
   "packs": [
     {
       "name": "4sangre",
       "java": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/4sangre/Java/!        §4sangRe §8.zip",
       "bedrock": null,
       "description": null,
-      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/4sangre/1781952772628.png"
+      "icon": null
     },
     {
       "name": "Akatsuki",
