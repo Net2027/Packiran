@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-20T16:01:04Z",
+  "updatedAt": "2026-07-20T19:33:38Z",
   "packs": [
     {
       "name": "4sangre",
       "java": "https://raw.githubusercontent.com/Net2027/Packiran/main/Pack/4sangre/Java/!        §4sangRe §8.zip",
       "bedrock": null,
-      "description": null,
+      "description": "سازگار با نسخه 1.21 به بالا",
       "icon": null
     },
     {
