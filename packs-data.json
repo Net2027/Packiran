@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T07:29:07Z",
+  "updatedAt": "2026-07-21T10:14:18Z",
   "packs": [
     {
       "name": "4sangre",
@@ -225,6 +225,14 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وان بلاک هاردکور/IMG_20260720_152011_850.jpg",
+      "tested": false
+    },
+    {
+      "name": "چراغ های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/چراغ های جدید/File/Fairy%20Lights%20(V0.02)%20(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/چراغ های جدید/photo_2026-07-21_13-43-38.jpg",
       "tested": false
     }
   ],
