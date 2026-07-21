@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:55:46Z",
+  "updatedAt": "2026-07-21T10:58:29Z",
   "packs": [
     {
       "name": "4sangre",
@@ -249,6 +249,14 @@
       "description": null,
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین سمند سورن/photo_2026-07-21_14-19-12.jpg",
+      "tested": false
+    },
+    {
+      "name": "ماشین پژو پارس",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین پژو پارس/File/Peugeot%20Pars%20Update(1).mcaddon",
+      "description": null,
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین پژو پارس/photo_2026-07-21_14-24-15.jpg",
       "tested": false
     },
     {
