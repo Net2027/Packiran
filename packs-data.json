@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T12:34:47Z",
+  "updatedAt": "2026-07-21T12:35:11Z",
   "packs": [
     {
       "name": "4sangre",
@@ -257,14 +257,6 @@
       "description": null,
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین پژو پارس/photo_2026-07-21_14-24-15.jpg",
-      "tested": false
-    },
-    {
-      "name": "مود ben 10",
-      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ben 10/File/ben10-add-on-v4-lite-version.mcaddon",
-      "description": "بدراک 1.20 به الا",
-      "compatibility": "سازگار بدراک",
-      "icon": null,
       "tested": false
     },
     {
