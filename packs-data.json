@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:29:04Z",
+  "updatedAt": "2026-07-21T10:33:23Z",
   "packs": [
     {
       "name": "4sangre",
@@ -121,6 +121,14 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع ماب های ترسناک جهش یافته برای/IMG_20260720_153555_209.jpg",
+      "tested": false
+    },
+    {
+      "name": "انواع وسیله نقلیه",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع وسیله نقلیه/File/More%20Vehicles%20Add-On%20(addon).mcaddon",
+      "description": "نسخه 1.20 به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/انواع وسیله نقلیه/photo_2026-07-21_13-56-35.jpg",
       "tested": false
     },
     {
