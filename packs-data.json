@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:43:32Z",
+  "updatedAt": "2026-07-21T10:46:02Z",
   "packs": [
     {
       "name": "4sangre",
@@ -273,6 +273,14 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود شهر بازی/photo_2026-07-15_22-56-13.jpg",
+      "tested": false
+    },
+    {
+      "name": "مود هکر",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود هکر/File/Hacker(1)(1).mcaddon",
+      "description": null,
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود هکر/photo_2026-07-21_14-14-52.jpg",
       "tested": false
     },
     {
