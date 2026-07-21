@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T12:35:11Z",
+  "updatedAt": "2026-07-21T12:38:53Z",
   "packs": [
     {
       "name": "4sangre",
@@ -293,10 +293,10 @@
     },
     {
       "name": "مود بن تن",
-      "file": null,
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود بن تن/File/ben10-add-on-v4-lite-version.mcaddon",
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود بن تن/photo_2026-07-07_12-49-55.jpg",
       "tested": false
     },
     {
