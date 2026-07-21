@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T12:34:30Z",
+  "updatedAt": "2026-07-21T12:34:47Z",
   "packs": [
     {
       "name": "4sangre",
@@ -162,14 +162,6 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/اکشن اند استاف نسخه 1.11 (جدید ترین نسخه )/70890379-6537-l__2672.jpg",
       "tested": true
-    },
-    {
-      "name": "بن تن",
-      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/بن تن/File/ben10-add-on-v4-lite-version.mcaddon",
-      "description": "بدراک 1.20 به الا",
-      "compatibility": "سازگار بدراک",
-      "icon": null,
-      "tested": false
     },
     {
       "name": "بوگاتی ویرون",
