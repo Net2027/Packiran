@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:51:01Z",
+  "updatedAt": "2026-07-21T10:52:22Z",
   "packs": [
     {
       "name": "4sangre",
@@ -169,6 +169,14 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل روستا به شهر/IMG_20260720_152029_158.jpg",
+      "tested": false
+    },
+    {
+      "name": "تبدیل شدن به ماب ها",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل شدن به ماب ها/File/Morphing%20Bracelet(1).mcaddon",
+      "description": null,
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تبدیل شدن به ماب ها/photo_2026-07-21_14-21-19.jpg",
       "tested": false
     },
     {
