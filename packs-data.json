@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:58:29Z",
+  "updatedAt": "2026-07-21T10:59:07Z",
   "packs": [
     {
       "name": "4sangre",
@@ -375,13 +375,5 @@
     }
   ],
   "films": [],
-  "downloads": [
-    {
-      "name": "آپتی کرافت",
-      "file": null,
-      "description": "اگر دنبال تجربه ماینکرافت بدراک روی کامپیوتری آپتی کرافت بهترین پیشنهاده",
-      "icon": null,
-      "tested": false
-    }
-  ]
+  "downloads": []
 }
