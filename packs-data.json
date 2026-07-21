@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T12:26:20Z",
+  "updatedAt": "2026-07-21T12:34:30Z",
   "packs": [
     {
       "name": "4sangre",
@@ -105,14 +105,6 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Lucky-SkyBlock/com.StusioCraftStudio.LuckySkyBlock_444bdf4d-51f9-4afd-812e-53235a2ab064.png",
-      "tested": false
-    },
-    {
-      "name": "ben 10",
-      "file": null,
-      "description": "بدراک 1.20 به الا",
-      "compatibility": "سازگار بدراک",
-      "icon": null,
       "tested": false
     },
     {
@@ -276,6 +268,14 @@
       "tested": false
     },
     {
+      "name": "مود ben 10",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود ben 10/File/ben10-add-on-v4-lite-version.mcaddon",
+      "description": "بدراک 1.20 به الا",
+      "compatibility": "سازگار بدراک",
+      "icon": null,
+      "tested": false
+    },
+    {
       "name": "مود امنیتی",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود امنیتی/File/Security%20Add-On(1)(1).mcaddon",
       "description": null,
@@ -297,6 +297,22 @@
       "description": "بدراک 1.20 به بالا",
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود انواع سوپر مارکت برای ماینکرافت/IMG_20260720_152114_714.jpg",
+      "tested": false
+    },
+    {
+      "name": "مود بن تن  سبک",
+      "file": null,
+      "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": null,
+      "tested": false
+    },
+    {
+      "name": "مود بن تن",
+      "file": null,
+      "description": "بدراک 1.20 به بالا",
+      "compatibility": "سازگار بدراک",
+      "icon": null,
       "tested": false
     },
     {
