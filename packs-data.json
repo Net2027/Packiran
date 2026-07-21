@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:46:02Z",
+  "updatedAt": "2026-07-21T10:47:24Z",
   "packs": [
     {
       "name": "4sangre",
@@ -225,6 +225,14 @@
       "description": "نسخه  1.21.120.20 به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین بی ام و/photo_2026-07-21_14-12-47.jpg",
+      "tested": false
+    },
+    {
+      "name": "مود امنیتی",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود امنیتی/File/Security%20Add-On(1)(1).mcaddon",
+      "description": null,
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مود امنیتی/photo_2026-07-21_14-15-37.jpg",
       "tested": false
     },
     {
