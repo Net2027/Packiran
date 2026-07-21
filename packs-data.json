@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T10:41:53Z",
+  "updatedAt": "2026-07-21T10:43:32Z",
   "packs": [
     {
       "name": "4sangre",
@@ -217,6 +217,14 @@
       "description": null,
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین 405/photo_2026-07-21_13-52-48.jpg",
+      "tested": false
+    },
+    {
+      "name": "ماشین بی ام و",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین بی ام و/File/M5-BMW-Addon-MCPE-1.21.mcaddon",
+      "description": "نسخه  1.21.120.20 به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین بی ام و/photo_2026-07-21_14-12-47.jpg",
       "tested": false
     },
     {
