@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:33:18Z",
+  "updatedAt": "2026-07-23T05:34:10Z",
   "packs": [
     {
       "name": "4sangre",
@@ -401,6 +401,14 @@
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وسایل  دخترانه/photo_2026-07-23_08-30-08.jpg",
+      "tested": true
+    },
+    {
+      "name": "وسایل بامبویی",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وسایل بامبویی/File/bamboocraft-1_1-rp.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وسایل بامبویی/photo_2026-07-23_09-03-23.jpg",
       "tested": true
     },
     {
