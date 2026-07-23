@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:36:54Z",
+  "updatedAt": "2026-07-23T05:38:15Z",
   "packs": [
     {
       "name": "4sangre",
@@ -194,6 +194,14 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تفنگ لیزری/photo_2026-07-21_14-03-47.jpg",
       "tested": false
+    },
+    {
+      "name": "تورچ در دست چپ",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تورچ در دست چپ/File/Realight%20Reimagined%20Resources%20(addon).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/تورچ در دست چپ/photo_2026-07-23_09-07-21.jpg",
+      "tested": true
     },
     {
       "name": "جت پک",
