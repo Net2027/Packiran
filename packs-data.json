@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:18:17Z",
+  "updatedAt": "2026-07-23T05:20:46Z",
   "packs": [
     {
       "name": "4sangre",
@@ -405,6 +405,14 @@
     }
   ],
   "shaders": [
+    {
+      "name": "Mystica Shaders v2.7.0",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Shader/Mystica%20Shaders%20v2.7.0/File/Mystica%20Shaders%20v2.7.0.mcpack",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": null,
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Shader/Mystica%20Shaders%20v2.7.0/photo_2026-07-23_08-49-20.jpg",
+      "tested": true
+    },
     {
       "name": "اکشن اند استاف 1.11(جدید ترین نسخه )",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Shader/اکشن اند استاف 1.11(جدید ترین نسخه )/File/Actions%20Stuff%201.11",
