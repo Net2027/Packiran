@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:44:26Z",
+  "updatedAt": "2026-07-23T05:47:21Z",
   "packs": [
     {
       "name": "4sangre",
@@ -114,6 +114,14 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/آیرون من/photo_2026-07-21_14-23-46.jpg",
       "tested": false
+    },
+    {
+      "name": "اسکیل پوینت های جدید",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/اسکیل پوینت های جدید/File/Harder%20on%20Bedrock%20(Add-on).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/اسکیل پوینت های جدید/photo_2026-07-23_09-14-13.jpg",
+      "tested": true
     },
     {
       "name": "انواع اسلحه",
