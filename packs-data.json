@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:21:28Z",
+  "updatedAt": "2026-07-23T05:28:22Z",
   "packs": [
     {
       "name": "4sangre",
@@ -258,6 +258,14 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ماشین پژو پارس/photo_2026-07-21_14-24-15.jpg",
       "tested": false
+    },
+    {
+      "name": "مبلمان ماب ها",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مبلمان ماب ها/File/Mob%20Furniture%20(addon)%20(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/مبلمان ماب ها/photo_2026-07-23_08-57-48.jpg",
+      "tested": true
     },
     {
       "name": "مود امنیتی",
