@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T11:55:58Z",
+  "updatedAt": "2026-07-23T11:59:21Z",
   "packs": [
     {
       "name": "4sangre",
@@ -114,6 +114,14 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Lucky-SkyBlock/com.StusioCraftStudio.LuckySkyBlock_444bdf4d-51f9-4afd-812e-53235a2ab064.png",
       "tested": false
+    },
+    {
+      "name": "آرمور های ماب ها",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/آرمور های ماب ها/File/MOB%20ARMOR%201.2%20Add-On%20by%20skupka(2)(1).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/آرمور های ماب ها/photo_2026-07-23_09-16-49.jpg",
+      "tested": true
     },
     {
       "name": "آیرون من",
