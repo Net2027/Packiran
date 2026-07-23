@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T04:55:27Z",
+  "updatedAt": "2026-07-23T05:05:43Z",
   "packs": [
     {
       "name": "4sangre",
@@ -370,6 +370,14 @@
       "compatibility": "سازگار بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وان بلاک هاردکور/IMG_20260720_152011_850.jpg",
       "tested": false
+    },
+    {
+      "name": "وسایل  دخترانه",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وسایل  دخترانه/File/-kuuki-craft-.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/وسایل  دخترانه/photo_2026-07-23_08-30-08.jpg",
+      "tested": true
     },
     {
       "name": "پختن آور ها در کمپ فایر",
