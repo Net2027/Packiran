@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:47:21Z",
+  "updatedAt": "2026-07-23T11:38:51Z",
   "packs": [
     {
       "name": "4sangre",
@@ -99,6 +99,14 @@
     }
   ],
   "mods": [
+    {
+      "name": "1000ماموریت",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/1000ماموریت/File/1000%20parcur%20Minecraft%20movazi.mctemplate",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/1000ماموریت/photo_2026-07-23_09-15-54.jpg",
+      "tested": true
+    },
     {
       "name": "Lucky-SkyBlock",
       "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/Lucky-SkyBlock/File/Lucky%20BlockSkyblock%20(1).mctemplate",
