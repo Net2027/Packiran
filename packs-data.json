@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T11:38:51Z",
+  "updatedAt": "2026-07-23T11:48:44Z",
   "packs": [
     {
       "name": "4sangre",
@@ -234,6 +234,14 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/دستگاه های ردستونی پیشرفته/photo_2026-07-21_13-46-19.jpg",
       "tested": false
+    },
+    {
+      "name": "ردیاب آور ها",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ردیاب آور ها/File/Simple_Ore_Detector_AchievementFriendly!+CraftableV1_30.mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ردیاب آور ها/photo_2026-07-23_15-16-27.jpg",
+      "tested": true
     },
     {
       "name": "ساخت اتاق گیمینگ و وسایل گیمینگ",
