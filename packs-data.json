@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T05:34:10Z",
+  "updatedAt": "2026-07-23T05:36:54Z",
   "packs": [
     {
       "name": "4sangre",
@@ -434,6 +434,14 @@
       "compatibility": "سازگار با بدراک",
       "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/چراغ های جدید/photo_2026-07-21_13-43-38.jpg",
       "tested": false
+    },
+    {
+      "name": "کلی در جدید و مخفی",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/کلی در جدید و مخفی/File/SECRET%20DOORS(3).mcaddon",
+      "description": "نسخه 1.12به بالا",
+      "compatibility": "سازگار با بدراک",
+      "icon": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/کلی در جدید و مخفی/photo_2026-07-23_09-05-10.jpg",
+      "tested": true
     }
   ],
   "shaders": [
