@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T06:57:23Z",
+  "updatedAt": "2026-07-24T06:59:37Z",
   "packs": [
     {
       "name": "4sangre",
@@ -484,8 +484,8 @@
       "tested": true
     },
     {
-      "name": "ولیج های بزرگ تر و خفن تر",
-      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ولیج های بزرگ تر و خفن تر/File/Village%20Cities%20Add-On.mcaddon",
+      "name": "ولیج های بزرگ تر و خیلی جذاب",
+      "file": "https://raw.githubusercontent.com/Net2027/Packiran/main/Mod/ولیج های بزرگ تر و خیلی جذاب/File/Village%20Cities%20Add-On.mcaddon",
       "description": "نسخه 1.12به بالا",
       "compatibility": "سازگار با بدراک",
       "icon": null,
